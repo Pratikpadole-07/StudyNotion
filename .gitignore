@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend env
+server/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build folders
+dist/
+build/
+server/dist/
+
+# Vite files
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Optional
+*.tgz
+
+# Python virtual environment (if AI service uses Python)
+venv/
+.venv/
+env/
+
+# Misc
+*.local
